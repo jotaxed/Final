@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="#027b00" android:paddingTop="@dimen/activity_bottom_top_margin" android:paddingBottom="@dimen/activity_bottom_top_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_bottom_top_margin">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#fff3f3f3" android:id="@id/tvListNombreVehiculo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto Loreto" />
+        <TextView android:textColor="#fff3f3f3" android:id="@id/tvListTipoVehiculo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Automóvil" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_bottom_top_margin" android:layout_marginRight="@dimen/activity_bottom_top_margin" android:src="@drawable/ic_action_navigation_next_item" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

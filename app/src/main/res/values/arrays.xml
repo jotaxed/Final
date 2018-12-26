@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_array">
+        <item>Seleccione</item>
+        <item>Auto</item>
+        <item>Moto</item>
+        <item>Camión</item>
+    </string-array>
+</resources>

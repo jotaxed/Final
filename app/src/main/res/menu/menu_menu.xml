@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_vehiculo" android:id="@id/action_activity_vehiculos" android:orderInCategory="100" android:title="@string/activity_vehiculos" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_schedule" android:id="@id/action_activity_historial" android:orderInCategory="101" android:title="@string/activity_historial" android:showAsAction="always" />
+</menu>

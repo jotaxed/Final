@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.6">
+        <ImageView android:id="@id/ivLogoEmpresa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_station" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#027b00" android:paddingTop="@dimen/activity_bottom_top_margin" android:paddingBottom="@dimen/activity_bottom_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#fff3f3f3" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Control de Porticos" android:layout_weight="0.7" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#fff3f3f3" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prototipo v2" android:layout_weight="0.7" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#fff3f3f3" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thumbs.exe" android:layout_weight="0.7" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#fff3f3f3" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="App para Inacap" android:layout_weight="0.7" />
+    </LinearLayout>
+</LinearLayout>

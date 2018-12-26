@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#027b00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="75.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="523dp"
+        android:background="#026100"
+        android:gravity="center_horizontal"
+        android:onClick="openDialogVehiculo"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_bottom_top_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_bottom_top_margin">
+
+        <TextView
+            android:id="@id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehículo"
+            android:textColor="#fff3f3f3" />
+
+        <Spinner
+            android:id="@id/spinnerNombreVehiculo"
+            android:layout_width="190.0dip"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/tvSeleccionar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:text="SELECCIONAR"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff3f3f3" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/selector_iniciar"
+        android:onClick="gotoMap" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+</RelativeLayout>

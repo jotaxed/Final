@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#027b00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_bottom_top_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_bottom_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#fff3f3f3" android:id="@id/tvTitulo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Info. Vehículo" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="#fff3f3f3" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tvDetailTipoVehiculo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tipo" />
+        <EditText android:id="@id/etDetailTipoVehiculo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+        <TextView android:id="@id/tvDetailNombreVehiculo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombre" />
+        <EditText android:id="@id/etDetailNombreVehiculo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName">
+            <requestFocus />
+        </EditText>
+        <TextView android:id="@id/tvDetailMarca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Marca" />
+        <EditText android:id="@id/etDetailMarca" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+        <TextView android:id="@id/tvDetailModelo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Modelo" />
+        <EditText android:id="@id/etDetailModelo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+        <TextView android:id="@id/tvDetailPatente" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Patente" />
+        <EditText android:id="@id/etDetailPatente" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+    </LinearLayout>
+</LinearLayout>

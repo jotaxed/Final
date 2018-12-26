@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="#027b00" android:paddingTop="@dimen/activity_bottom_top_margin" android:paddingBottom="@dimen/activity_bottom_top_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:src="@drawable/ic_action_phone" android:layout_alignBottom="@id/tvListNombreAutopista" android:layout_alignParentLeft="true" android:contentDescription="TODO" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#fff3f3f3" android:id="@id/tvListSOSNombreAutopista" android:paddingLeft="@dimen/activity_bottom_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="Autopista br br" android:layout_toRightOf="@id/imageView1" android:layout_alignParentTop="true" />
+</RelativeLayout>

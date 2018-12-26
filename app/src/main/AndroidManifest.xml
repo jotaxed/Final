@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="6" android:versionName="3.0" package="com.afinal" xmlns:tools="http://schemas.android.com/tools">
+    <permission android:name="com.afinal.permission.MAPS_RECEIVE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.afinal.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application android:theme="@style/Theme_Tagz" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true" tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:label="@string/app_name" android:name="com.afinal.MainActivity" android:configChanges="orientation|screenSize" />
+        <activity android:name="com.afinal.MenuActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/activity_vehiculos" android:name="com.afinal.VehiculoActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/nuevo_vehiculo" android:name="com.afinal.AddVehiculoActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/activity_vehiculos" android:name="com.afinal.DetailVehiculoActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/activity_historial" android:name="com.afinal.HistorialActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/activity_historial" android:name="com.afinal.DetailHistorialActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="@string/activity_historial" android:name="com.afinal.TramoHistorialActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="Acerca de" android:name="com.afinal.AcercaDeActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:label="Números de Emergencia" android:name="com.afinal.SOSActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:name="com.afinal.HistorialMesActivity" android:screenOrientation="portrait" android:configChanges="orientation" />
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAndUC5I-LmjuRrECyp_4ZGMVnPWAFaSC0" />
+        <activity android:theme="@android:style/Theme.Holo.Light.NoActionBar" android:label="@string/app_name" android:name="com.afinal.SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
+

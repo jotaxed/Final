@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_email" android:id="@id/action_email" android:orderInCategory="103" android:title="@string/guardar" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_facebook" android:id="@id/action_facebook" android:orderInCategory="102" android:title="@string/guardar" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_www" android:id="@id/action_web" android:orderInCategory="101" android:title="@string/guardar" android:showAsAction="always" />
+</menu>
